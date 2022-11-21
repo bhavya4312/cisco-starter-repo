@@ -28,20 +28,25 @@ body {
 
 .note {
   background: #393E46;
-  border-radius: 7px;
+  border-radius: 15px;
   box-shadow: 32px 36px 59px -37px rgba(255,255,255,0.73);
   padding: 10px;
   width: 240px;
   margin: 16px;
   float: left;
+  text-align: center;
 }
 .note h1 {
   font-size: 1.1em;
-  margin-bottom: 6px;
+  margin-bottom: 15px;
 }
-.note p {
+.note div {
   font-size: 1.1em;
-  margin-bottom: 10px;
+  padding: 5px;
+  margin: 5px;
   white-space: pre-wrap;
   word-wrap: break-word;
+  background-color: beige;
+  color: #222831;
+  border-radius: 10px;
 }
