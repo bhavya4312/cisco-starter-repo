@@ -8,10 +8,10 @@ function App() {
     return (
       <div className="App">
         
-        <Banner banner="Sextant" />
+        <Banner topic="Sextant" desc=" - a simple network dashboard" />
         
         <Exhibit heading="Public IPv4 Address"> 
-            <Address url='https://api.ipify.org?format=json'/>
+            <Address url='https://api.ipify.org?format=json' />
         </Exhibit>  
         <Exhibit heading="Public IPv6 Address">
             <Address url='https://api64.ipify.org?format=json' />
