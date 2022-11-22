@@ -1,19 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;500&display=swap');
+
 .App {
   background-color: #00ADB5;
   height: 100vh;
   color: #EEEEEE;
 }
 
-
 .App-header {
   background-color: #222831;
   padding: 1px 0px 1px 16px;
+  margin-bottom: 10px;
   font-size: 20px;
   box-shadow: 0 0 20px 0 #393E46;
-}
-
-.App-intro {
-  font-size: 18px;
 }
 
 body {
@@ -31,7 +29,7 @@ body {
   border-radius: 15px;
   box-shadow: 32px 36px 59px -37px rgba(255,255,255,0.73);
   padding: 10px;
-  width: 240px;
+  min-width: 240px;
   margin: 16px;
   float: left;
   text-align: center;
@@ -41,11 +39,14 @@ body {
   margin-bottom: 15px;
 }
 .note div {
+  font-family: 'Source Code Pro', monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
   font-size: 1.1em;
-  padding: 5px;
+  padding: 5px 20px;
   margin: 5px;
-  white-space: pre-wrap;
-  word-wrap: break-word;
   background-color: beige;
   color: #222831;
   border-radius: 10px;
